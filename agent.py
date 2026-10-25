@@ -7,11 +7,12 @@ from langchain_core.messages import AnyMessage, SystemMessage, ToolMessage
 from langchain_openai import ChatOpenAI
 from langgraph.graph import END, START, StateGraph
 from typing_extensions import TypedDict
+from hotel_tool import get_hotel_options
 
 load_dotenv()
 
 search_tool = DuckDuckGoSearchRun()
-tools = [search_tool]
+tools = [search_tool, get_hotel_options]
 tools_by_name = {tool.name: tool for tool in tools}
 
 model = ChatOpenAI(model="gpt-4o", temperature=0)
