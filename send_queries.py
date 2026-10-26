@@ -46,7 +46,7 @@ QUERIES = [
     {"id": 10, "category": "no_tool", "expected_tool": "none", "expected_frustration": False,
      "message": "Hi! What can you help me with?"},
 
-    # --- Frustrated messages (cues are inside the message, since the API has no memory) ---
+    # --- Frustrated messages (single-turn, so the cues are inside the message; see send_sessions.py for multi-turn) ---
     {"id": 11, "category": "frustrated", "expected_tool": "get_hotel_options", "expected_frustration": True,
      "message": "This is the third time I'm asking: I need a hotel in Lisbon UNDER 100 euros a night from 2026-11-10 for 3 nights, not a list of attractions."},
     {"id": 12, "category": "frustrated", "expected_tool": "get_hotel_options", "expected_frustration": True,
