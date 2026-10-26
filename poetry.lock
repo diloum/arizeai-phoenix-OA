@@ -229,6 +229,34 @@ harbor = ["harbor (>=0.21.0) ; python_version >= \"3.12\""]
 pytest = ["pytest (>=7)"]
 
 [[package]]
+name = "arize-phoenix-evals"
+version = "3.9.4"
+description = "LLM Evaluations"
+optional = false
+python-versions = "<3.15,>=3.11"
+groups = ["main"]
+markers = "python_version < \"3.15\""
+files = [
+    {file = "arize_phoenix_evals-3.9.4-py3-none-any.whl", hash = "sha256:2c877f17b6c7c2ec2af492dc4e8a80054945cdc2bbccba31f81639bfbaf8dd1a"},
+    {file = "arize_phoenix_evals-3.9.4.tar.gz", hash = "sha256:29bd61b6a975f8a32b563acaa7b54f2733042fa660e2fe76d424a41b224794c2"},
+]
+
+[package.dependencies]
+jsonpath-ng = "*"
+openinference-instrumentation = ">=0.1.20"
+openinference-semantic-conventions = ">=0.1.19"
+opentelemetry-api = "*"
+pandas = "*"
+pydantic = ">=2.0.0"
+pystache = "*"
+tqdm = "*"
+typing-extensions = ">=4.5,<5"
+
+[package.extras]
+dev = ["anthropic (>=1,<2)", "boto3", "litellm (>=1.83.14,!=1.107.0) ; python_version < \"3.14\"", "openai (>=1.0.0)"]
+test = ["anthropic (>=1,<2)", "boto3", "litellm (>=1.83.14,!=1.107.0) ; python_version < \"3.14\"", "nest-asyncio", "openai (>=1.0.0)", "openinference-semantic-conventions", "pandas", "pandas-stubs (==2.0.3.230814)", "tqdm", "types-tqdm", "typing-extensions (>=4.5,<5)"]
+
+[[package]]
 name = "arize-phoenix-otel"
 version = "0.17.2"
 description = "LLM Observability"
@@ -1030,6 +1058,19 @@ files = [
 
 [package.dependencies]
 jsonpointer = ">=1.9"
+
+[[package]]
+name = "jsonpath-ng"
+version = "1.14.0"
+description = "A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming."
+optional = false
+python-versions = ">=3.11"
+groups = ["main"]
+markers = "python_version < \"3.15\""
+files = [
+    {file = "jsonpath_ng-1.14.0-py3-none-any.whl", hash = "sha256:748ffe4fce1a5f7f67f5414206ab4919bab99f800598de1f60df280a211d71df"},
+    {file = "jsonpath_ng-1.14.0.tar.gz", hash = "sha256:8c8b0b32c24421ba150621863c6a943e84861edbe6a4414261d1ad7cba7828bc"},
+]
 
 [[package]]
 name = "jsonpointer"
@@ -2616,6 +2657,24 @@ toml = ["tomli (>=2.0.1)"]
 yaml = ["pyyaml (>=6.0.1)"]
 
 [[package]]
+name = "pystache"
+version = "0.6.8"
+description = "Mustache for Python"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+markers = "python_version < \"3.15\""
+files = [
+    {file = "pystache-0.6.8-py3-none-any.whl", hash = "sha256:7211e000974a6e06bce2d4d5cad8df03bcfffefd367209117376e4527a1c3cb8"},
+    {file = "pystache-0.6.8.tar.gz", hash = "sha256:3707518e6a4d26dd189b07c10c669b1fc17df72684617c327bd3550e7075c72c"},
+]
+
+[package.extras]
+cov = ["coverage", "coverage_python_version"]
+doc = ["recommonmark", "sphinx", "sphinx_git", "sphinx_rtd_theme", "sphinxcontrib-apidoc"]
+test = ["pytest", "pytest-cov"]
+
+[[package]]
 name = "python-dateutil"
 version = "3.0.0"
 description = "Extensions to the standard Python datetime module"
@@ -3796,4 +3855,4 @@ cffi = ["cffi (>=1.17,<2.0) ; platform_python_implementation != \"PyPy\" and pyt
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "3d99cf15adba4a8bce379d0ee0a314574d1c1524e9958a9a3f5b0826ed018924"
+content-hash = "44e0f4c46293cdfdfec61734ecfb8c4da5b04d38ab956138c869a342eb1eab07"
