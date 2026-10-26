@@ -8,3 +8,6 @@ __pycache__/
 dist/
 build/
 .DS_Store
+
+# Added by px setup — local Phoenix credentials
+.env.phoenix

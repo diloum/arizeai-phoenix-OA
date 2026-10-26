@@ -6,10 +6,14 @@ from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_core.messages import AnyMessage, SystemMessage, ToolMessage
 from langchain_openai import ChatOpenAI
 from langgraph.graph import END, START, StateGraph
+from phoenix.otel import register
 from typing_extensions import TypedDict
 from hotel_tool import get_hotel_options
 
 load_dotenv()
+
+# Phoenix tracing: auto-instruments LangChain/LangGraph via openinference-instrumentation-langchain
+register(project_name="travel-agent-arize-OA", auto_instrument=True)
 
 search_tool = DuckDuckGoSearchRun()
 tools = [search_tool, get_hotel_options]
