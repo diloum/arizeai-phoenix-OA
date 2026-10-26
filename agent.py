@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_core.messages import AnyMessage, SystemMessage, ToolMessage
 from langchain_openai import ChatOpenAI
+from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, START, StateGraph
 from phoenix.otel import register
 from typing_extensions import TypedDict
@@ -72,5 +73,6 @@ def build_agent():
     graph_builder.add_conditional_edges("llm_call", should_continue, ["tool_node", END])
     graph_builder.add_edge("tool_node", "llm_call")
 
-    agent = graph_builder.compile()
+    # In-memory conversation history, keyed by thread_id (lost on restart; fine for a demo)
+    agent = graph_builder.compile(checkpointer=MemorySaver())
     return agent
