@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "category": "hotel",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": false,
+    "message": "Find me a hotel in Lisbon from 2026-11-10 for 3 nights under 100 euros a night.",
+    "response": "Here are some hotel options in Lisbon for your stay from November 10, 2026, for 3 nights, under 100 euros per night:\n\n1. **Bairro Alto Rooms**\n   - Neighborhood: Bairro Alto\n   - Stars: 2\n   - Price per night: €60\n   - Total price for 3 nights: €180\n\n2. **Alfama Courtyard Inn**\n   - Neighborhood: Alfama\n   - Stars: 3\n   - Price per night: €95\n   - Total price for 3 nights: €285\n\nThese options fit within your budget of 100 euros per night.",
+    "error": null,
+    "seconds": 4.3
+  },
+  {
+    "id": 2,
+    "category": "hotel",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": false,
+    "message": "I need somewhere to stay in Tokyo, checking in 2026-12-05 for 4 nights.",
+    "response": "Here are some hotel options for your stay in Tokyo from December 5, 2026, for 4 nights:\n\n1. **Asakusa Capsule & Lounge**\n   - **Neighborhood:** Asakusa\n   - **Stars:** 2\n   - **Price per Night:** €45\n   - **Total Price for 4 Nights:** €180\n\n2. **Shinjuku Skyline Hotel**\n   - **Neighborhood:** Shinjuku\n   - **Stars:** 4\n   - **Price per Night:** €220\n   - **Total Price for 4 Nights:** €880\n\nThese options provide a range of prices and locations to suit different preferences.",
+    "error": null,
+    "seconds": 2.7
+  },
+  {
+    "id": 3,
+    "category": "hotel",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": false,
+    "message": "What's the cheapest hotel in Marseille for 2 nights starting 2026-11-20?",
+    "response": "The cheapest hotel option in Marseille for 2 nights starting on November 20, 2026, is \"Le Panier Guesthouse.\" It is a 2-star hotel located in the Le Panier neighborhood, with a price of €70 per night, totaling €140 for the stay.",
+    "error": null,
+    "seconds": 2.8
+  },
+  {
+    "id": 4,
+    "category": "hotel_edge",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": false,
+    "message": "Find me a hotel in Berlin from 2026-11-10 for 2 nights.",
+    "response": "I couldn't find hotel options for Berlin for the specified dates. Currently, I have access to hotel data for Lisbon, Paris, Marseille, and Tokyo. If you need assistance with any of these cities or have other questions, feel free to ask!",
+    "error": null,
+    "seconds": 2.6
+  },
+  {
+    "id": 5,
+    "category": "hotel_edge",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": false,
+    "message": "Hotels in Paris under 50 euros a night, checking in 2026-11-15 for 2 nights.",
+    "response": "I couldn't find any hotels in Paris under 50 euros per night for the dates you specified (checking in on November 15, 2026, for 2 nights). You might want to consider increasing your budget or exploring alternative accommodations such as hostels or shared accommodations.",
+    "error": null,
+    "seconds": 2.6
+  },
+  {
+    "id": 6,
+    "category": "hotel_edge",
+    "expected_tool": "get_hotel_options or none",
+    "expected_frustration": false,
+    "message": "Book me a hotel in Paris next Friday for the weekend.",
+    "response": "Here are some hotel options for your stay in Paris next weekend:\n\n1. **Montmartre Budget Stay**\n   - **Neighborhood:** Montmartre\n   - **Stars:** 2\n   - **Price per Night:** €85\n   - **Total Price for 2 Nights:** €170\n\n2. **Le Petit Marais**\n   - **Neighborhood:** Le Marais\n   - **Stars:** 3\n   - **Price per Night:** €180\n   - **Total Price for 2 Nights:** €360\n\n3. **Hotel Rive Gauche**\n   - **Neighborhood:** Saint-Germain\n   - **Stars:** 4\n   - **Price per Night:** €260\n   - **Total Price for 2 Nights:** €520\n\nPlease let me know if you would like to book one of these options or need further assistance!",
+    "error": null,
+    "seconds": 2.8
+  },
+  {
+    "id": 7,
+    "category": "search",
+    "expected_tool": "duckduckgo_search",
+    "expected_frustration": false,
+    "message": "What are the top things to do in Lisbon in November?",
+    "response": "Lisbon in November offers a mix of cultural experiences, historical exploration, and local festivities. Here are some top things to do:\n\n1. **Explore Historic Neighborhoods**: Wander through the charming streets of Alfama, Bairro Alto, and Chiado. These neighborhoods are rich in history and offer stunning views, especially from the Miradouros (viewpoints).\n\n2. **Visit Belém**: Discover the iconic Belém Tower and Jerónimos Monastery, both UNESCO World Heritage sites. Don't forget to try the famous Pastéis de Belém, a traditional Portuguese custard tart.\n\n3. **Fado Music**: Experience the soulful sounds of Fado music in a traditional Fado house. This genre of music is deeply rooted in Portuguese culture and is a must-hear.\n\n4. **Lisbon Oceanarium**: Visit one of the largest indoor aquariums in Europe, which is perfect for a rainy November day.\n\n5. **Museums and Art Galleries**: Explore Lisbon's rich cultural scene by visiting the Calouste Gulbenkian Museum, the National Museum of Ancient Art, or the MAAT (Museum of Art, Architecture and Technology).\n\n6. **Tram 28 Ride**: Take a ride on the iconic Tram 28, which passes through many of Lisbon's most famous districts and offers a unique way to see the city.\n\n7. **Local Markets**: Visit the Mercado da Ribeira (Time Out Market) for a taste of local cuisine and to experience the vibrant atmosphere.\n\n8. **Sintra Day Trip**: Take a short trip to Sintra, a town known for its 19th-century Romantic architecture, including the colorful Pena Palace and the Moorish Castle.\n\n9. **Attend Festivals**: November might have local festivals or events, so check the local calendar for any special happenings during your visit.\n\n10. **Enjoy the Cuisine**: Indulge in Portuguese cuisine, including dishes like bacalhau (codfish), grilled sardines, and bifanas (pork sandwiches).\n\nLisbon's mild climate in November makes it a pleasant time to explore the city without the summer crowds.",
+    "error": null,
+    "seconds": 4.3
+  },
+  {
+    "id": 8,
+    "category": "search",
+    "expected_tool": "duckduckgo_search",
+    "expected_frustration": false,
+    "message": "What's the best way to get from Tokyo Narita airport to Shinjuku?",
+    "response": "The best way to get from Tokyo Narita Airport to Shinjuku depends on your preferences for speed, cost, and convenience. Here are some popular options:\n\n1. **Narita Express (N'EX):**\n   - **Time:** Approximately 80-90 minutes.\n   - **Cost:** Around 3,250 yen one-way.\n   - **Convenience:** Direct train service from Narita Airport to Shinjuku Station. It's comfortable and has plenty of space for luggage.\n\n2. **Airport Limousine Bus:**\n   - **Time:** Approximately 85-145 minutes, depending on traffic.\n   - **Cost:** Around 3,200 yen one-way.\n   - **Convenience:** Direct service to major hotels and stations in Shinjuku. It's a good option if you have a lot of luggage.\n\n3. **Keisei Skyliner + JR Yamanote Line:**\n   - **Time:** Approximately 70-90 minutes.\n   - **Cost:** Around 2,700 yen total.\n   - **Convenience:** Take the Skyliner from Narita to Nippori Station, then transfer to the JR Yamanote Line to Shinjuku. It's faster but requires a transfer.\n\n4. **JR Sobu Line (Rapid Service):**\n   - **Time:** Approximately 90-100 minutes.\n   - **Cost:** Around 1,320 yen one-way.\n   - **Convenience:** A more economical option, but slower and less comfortable than the Narita Express.\n\n5. **Taxi:**\n   - **Time:** Approximately 90-120 minutes, depending on traffic.\n   - **Cost:** Very expensive, typically over 20,000 yen.\n   - **Convenience:** Direct and private, but costly.\n\n6. **Ride-Sharing Services:**\n   - **Time and Cost:** Varies.\n   - **Convenience:** Similar to taxis, but availability and cost can vary.\n\nEach option has its pros and cons, so consider your budget, time constraints, and luggage when choosing the best method for you.",
+    "error": null,
+    "seconds": 3.4
+  },
+  {
+    "id": 9,
+    "category": "both",
+    "expected_tool": "both",
+    "expected_frustration": false,
+    "message": "I'm going to Lisbon on 2026-11-10 for 3 nights. Suggest a hotel under 120 euros a night and what to see nearby.",
+    "response": "Here are some hotel options in Lisbon for your stay from November 10, 2026, for 3 nights, under 120 euros per night:\n\n1. **Bairro Alto Rooms**\n   - Neighborhood: Bairro Alto\n   - Stars: 2\n   - Price per night: 60 EUR\n   - Total price for 3 nights: 180 EUR\n\n2. **Alfama Courtyard Inn**\n   - Neighborhood: Alfama\n   - Stars: 3\n   - Price per night: 95 EUR\n   - Total price for 3 nights: 285 EUR\n\n### Top Attractions in Lisbon\n\nWhile you're in Lisbon, here are some top attractions you might want to explore:\n\n- **Pena Palace in Sintra**: Although it's a bit outside Lisbon, it's a UNESCO World Heritage Site known for its stunning architecture and vibrant colors. You can spend a day exploring this beautiful palace and its surroundings.\n\n- **Rossio Square**: This is a central area in Lisbon, perfect for sightseeing. It's close to many popular attractions and areas in the city center.\n\n- **Historic Neighborhoods**: Explore neighborhoods like Alfama and Belém, which are rich in history with ancient ruins and white-domed cathedrals.\n\n- **Viewing Points**: Lisbon is known for its beautiful viewpoints. Consider visiting some of the best viewing points to enjoy panoramic views of the city.\n\nThese attractions offer a mix of cultural, historical, and scenic experiences that are quintessential to Lisbon. Enjoy your trip!",
+    "error": null,
+    "seconds": 5.5
+  },
+  {
+    "id": 10,
+    "category": "no_tool",
+    "expected_tool": "none",
+    "expected_frustration": false,
+    "message": "Hi! What can you help me with?",
+    "response": "Hello! I can assist you with a variety of tasks, including:\n\n1. **Answering Questions**: I can provide information on a wide range of topics.\n2. **Travel Planning**: I can help you find hotel options in different cities and provide travel tips.\n3. **Current Events**: I can look up recent news and events for you.\n4. **General Advice**: I can offer advice on various subjects, from technology to lifestyle.\n5. **Research**: I can help you gather information on specific topics.\n\nIf you have something specific in mind, feel free to ask!",
+    "error": null,
+    "seconds": 1.9
+  },
+  {
+    "id": 11,
+    "category": "frustrated",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": true,
+    "message": "This is the third time I'm asking: I need a hotel in Lisbon UNDER 100 euros a night from 2026-11-10 for 3 nights, not a list of attractions.",
+    "response": "Here are some hotel options in Lisbon for your stay from November 10, 2026, for 3 nights, each under 100 euros per night:\n\n1. **Bairro Alto Rooms**\n   - **Neighborhood:** Bairro Alto\n   - **Stars:** 2\n   - **Price per Night:** €60\n   - **Total Price for 3 Nights:** €180\n\n2. **Alfama Courtyard Inn**\n   - **Neighborhood:** Alfama\n   - **Stars:** 3\n   - **Price per Night:** €95\n   - **Total Price for 3 Nights:** €285\n\nThese options fit your budget and offer different neighborhood experiences in Lisbon.",
+    "error": null,
+    "seconds": 2.6
+  },
+  {
+    "id": 12,
+    "category": "frustrated",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": true,
+    "message": "That's wrong, I said Marseille, not Paris. Hotels in Marseille from 2026-11-20 for 2 nights.",
+    "response": "Here are some hotel options in Marseille for your stay from November 20, 2026, for 2 nights:\n\n1. **Le Panier Guesthouse**\n   - **Neighborhood:** Le Panier\n   - **Stars:** 2\n   - **Price per Night:** €70\n   - **Total Price for 2 Nights:** €140\n\n2. **Vieux-Port Suites**\n   - **Neighborhood:** Vieux-Port\n   - **Stars:** 4\n   - **Price per Night:** €170\n   - **Total Price for 2 Nights:** €340\n\nLet me know if you need more information or further assistance!",
+    "error": null,
+    "seconds": 2.4
+  },
+  {
+    "id": 13,
+    "category": "frustrated",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": true,
+    "message": "Why do you keep searching the web? Just give me hotel options in Tokyo from 2026-12-05 for 3 nights.",
+    "response": "Here are some hotel options in Tokyo for your stay from December 5, 2026, for 3 nights:\n\n1. **Asakusa Capsule & Lounge**\n   - **Neighborhood:** Asakusa\n   - **Stars:** 2\n   - **Price per Night:** €45\n   - **Total Price for 3 Nights:** €135\n\n2. **Shinjuku Skyline Hotel**\n   - **Neighborhood:** Shinjuku\n   - **Stars:** 4\n   - **Price per Night:** €220\n   - **Total Price for 3 Nights:** €660\n\nThese options provide a range of prices and locations to suit different preferences.",
+    "error": null,
+    "seconds": 2.5
+  },
+  {
+    "id": 14,
+    "category": "frustrated",
+    "expected_tool": "none",
+    "expected_frustration": true,
+    "message": "Ugh, forget it. Is there anything in Paris for less than 90 a night or not?",
+    "response": "Yes, there is a hotel option in Paris for less than €90 per night. You can stay at the **Montmartre Budget Stay**, which is a 2-star hotel located in the Montmartre neighborhood. The price per night is €85.",
+    "error": null,
+    "seconds": 1.9
+  },
+  {
+    "id": 15,
+    "category": "neutral_control",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": false,
+    "message": "Thanks! Could you also check hotels in Paris from 2026-12-01 for 2 nights?",
+    "response": "Here are some hotel options in Paris for your stay from December 1, 2026, for 2 nights:\n\n1. **Montmartre Budget Stay**\n   - Neighborhood: Montmartre\n   - Stars: 2\n   - Price per night: €85\n   - Total price for 2 nights: €170\n\n2. **Le Petit Marais**\n   - Neighborhood: Le Marais\n   - Stars: 3\n   - Price per night: €180\n   - Total price for 2 nights: €360\n\n3. **Hotel Rive Gauche**\n   - Neighborhood: Saint-Germain\n   - Stars: 4\n   - Price per night: €260\n   - Total price for 2 nights: €520\n\nLet me know if you need more information or further assistance!",
+    "error": null,
+    "seconds": 2.7
+  },
+  {
+    "id": 16,
+    "category": "neutral_control",
+    "expected_tool": "get_hotel_options",
+    "expected_frustration": false,
+    "message": "Actually, make that 4 nights in Paris from 2026-12-01 instead of 2.",
+    "response": "Here are some hotel options for a 4-night stay in Paris from December 1, 2026:\n\n1. **Montmartre Budget Stay**\n   - **Neighborhood:** Montmartre\n   - **Stars:** 2\n   - **Price per Night:** €85\n   - **Total Price for 4 Nights:** €340\n\n2. **Le Petit Marais**\n   - **Neighborhood:** Le Marais\n   - **Stars:** 3\n   - **Price per Night:** €180\n   - **Total Price for 4 Nights:** €720\n\n3. **Hotel Rive Gauche**\n   - **Neighborhood:** Saint-Germain\n   - **Stars:** 4\n   - **Price per Night:** €260\n   - **Total Price for 4 Nights:** €1040\n\nThese options vary in price and location, so you can choose based on your preferences for budget and neighborhood.",
+    "error": null,
+    "seconds": 3.0
+  }
+]
