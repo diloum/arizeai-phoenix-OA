@@ -18,6 +18,8 @@ fastapi = "^0.115"
 uvicorn = "^0.32"
 arize-phoenix-otel = {version = "0.17.2", python = ">=3.11,<3.15"}
 openinference-instrumentation-langchain = {version = "0.1.80", python = ">=3.11,<3.15"}
+arize-phoenix-client = {version = "^3.5.0", python = ">=3.11,<3.15"}
+pandas = {version = "^3.1.0", python = ">=3.11,<3.15"}
 
 [build-system]
 requires = ["poetry-core"]

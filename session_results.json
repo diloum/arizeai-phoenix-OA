@@ -1,222 +1,182 @@
 [
   {
-    "conversation": "single_hotel",
+    "conversation": "happy_path",
     "turn": 1,
-    "session_id": "1d1862ac-d2e0-4bd9-988d-c24338a15d78",
-    "message": "Find me a hotel in Tokyo from 2026-12-05 for 4 nights.",
-    "check": "Lists Asakusa Capsule (45) and Shinjuku Skyline (220), totals for 4 nights.",
-    "response": "Here are some hotel options in Tokyo for your stay from December 5, 2026, for 4 nights:\n\n1. **Asakusa Capsule & Lounge**\n   - **Neighborhood:** Asakusa\n   - **Stars:** 2\n   - **Price per Night:** €45\n   - **Total Price for 4 Nights:** €180\n\n2. **Shinjuku Skyline Hotel**\n   - **Neighborhood:** Shinjuku\n   - **Stars:** 4\n   - **Price per Night:** €220\n   - **Total Price for 4 Nights:** €880\n\nThese options provide a range of prices and locations to suit different preferences.",
+    "session_id": "038a5985-b253-4d2c-9810-083a98d39bc4",
+    "message": "Hi, I'm planning a trip to Lisbon from 2026-11-10 for 3 nights.",
+    "frustrated": false,
+    "response": "That sounds like a great trip! How can I assist you with your planning? Are you looking for hotel options, things to do, or any other information?",
     "error": null,
-    "seconds": 4.6
+    "seconds": 2.7
   },
   {
-    "conversation": "single_search",
-    "turn": 1,
-    "session_id": "f875fe9d-cef5-439c-859c-7c920a5cc5ab",
-    "message": "What are the top things to do in Marseille in winter?",
-    "check": "Uses web search, no hotel tool.",
-    "response": "Marseille, a vibrant port city in southern France, offers a variety of activities and attractions even in the winter months. Here are some top things to do in Marseille during winter:\n\n1. **Explore the Old Port (Vieux-Port):** The heart of Marseille, the Old Port is a great place to stroll around, enjoy the views, and watch the boats. The atmosphere is lively, and there are plenty of cafes and restaurants to enjoy.\n\n2. **Visit the Basilique Notre-Dame de la Garde:** This iconic basilica offers stunning views of the city and the Mediterranean Sea. It's a must-visit for its beautiful architecture and panoramic vistas.\n\n3. **Discover the Calanques National Park:** While swimming might be off the table, winter is a great time for hiking in the Calanques, as the weather is cooler and the trails are less crowded.\n\n4. **Explore Le Panier District:** This historic district is full of narrow streets, colorful buildings, and local artisan shops. It's perfect for a leisurely walk and discovering local culture.\n\n5. **Visit the MuCEM (Museum of European and Mediterranean Civilisations):** This modern museum offers fascinating exhibitions on Mediterranean culture and history. Its architecture is also worth seeing.\n\n6. **Enjoy Marseille's Cuisine:** Winter is a great time to indulge in Marseille's culinary delights, such as bouillabaisse (a traditional fish stew) and other Provençal dishes.\n\n7. **Take a Day Trip to Aix-en-Provence:** Just a short drive or train ride away, Aix-en-Provence is a charming town with beautiful architecture, markets, and cafes.\n\n8. **Attend a Local Festival or Event:** Check out any local festivals or events happening during your visit, as Marseille often hosts cultural events, especially around the holiday season.\n\n9. **Visit Château d'If:** Famous from \"The Count of Monte Cristo,\" this fortress on a small island is accessible by ferry and offers a glimpse into history.\n\n10. **Relax at a Café:** Enjoy a warm drink at one of Marseille's many cafes, soaking in the local atmosphere and perhaps trying some local pastries.\n\nThese activities offer a mix of culture, history, and natural beauty, making Marseille a delightful destination even in the cooler months.",
-    "error": null,
-    "seconds": 8.6
-  },
-  {
-    "conversation": "single_greeting",
-    "turn": 1,
-    "session_id": "9d294df2-9a23-4aa3-89eb-2f55c5cd39b2",
-    "message": "Hi! What can you help me with?",
-    "check": "No tool call.",
-    "response": "Hello! I can assist you with a variety of tasks, including:\n\n1. **Answering Questions**: I can provide information on a wide range of topics.\n2. **Travel Planning**: I can help you find hotel options in different cities for specific dates and budgets.\n3. **Current Events**: I can look up recent news and events for you.\n4. **General Advice**: I can offer tips and advice on various subjects.\n\nIf you have a specific question or need assistance with something, feel free to ask!",
-    "error": null,
-    "seconds": 2.3
-  },
-  {
-    "conversation": "single_no_budget_match",
-    "turn": 1,
-    "session_id": "1c0554ea-dcad-4fd7-9a02-8370c507aba6",
-    "message": "Hotels in Paris under 50 euros a night, checking in 2026-11-15 for 2 nights.",
-    "check": "Says nothing fits the budget; may suggest Montmartre Budget Stay (85).",
-    "response": "I couldn't find any hotels in Paris under 50 euros per night for the dates you specified (checking in on November 15, 2026, for 2 nights). You might want to consider increasing your budget or exploring alternative accommodations such as hostels or shared accommodations.",
-    "error": null,
-    "seconds": 2.4
-  },
-  {
-    "conversation": "budget_correction",
-    "turn": 1,
-    "session_id": "0b9a811c-5f5f-4db1-a5c2-bc5c6330c15b",
-    "message": "I'm heading to Lisbon on 2026-11-10 for 3 nights. Any hotels?",
-    "check": "Lists all 3 Lisbon hotels.",
-    "response": "Here are some hotel options for your stay in Lisbon from November 10, 2026, for 3 nights:\n\n1. **Bairro Alto Rooms**\n   - **Neighborhood:** Bairro Alto\n   - **Stars:** 2\n   - **Price per Night:** €60\n   - **Total Price for 3 Nights:** €180\n\n2. **Alfama Courtyard Inn**\n   - **Neighborhood:** Alfama\n   - **Stars:** 3\n   - **Price per Night:** €95\n   - **Total Price for 3 Nights:** €285\n\n3. **Hotel Avenida Grand**\n   - **Neighborhood:** Avenida da Liberdade\n   - **Stars:** 5\n   - **Price per Night:** €310\n   - **Total Price for 3 Nights:** €930\n\nThese options vary in price and star rating, so you can choose based on your preferences and budget.",
-    "error": null,
-    "seconds": 5.2
-  },
-  {
-    "conversation": "budget_correction",
+    "conversation": "happy_path",
     "turn": 2,
-    "session_id": "0b9a811c-5f5f-4db1-a5c2-bc5c6330c15b",
-    "message": "Actually my budget is 100 euros a night max.",
-    "check": "Re-runs with max 100: Bairro Alto Rooms and Alfama Courtyard Inn only. Keeps Lisbon and dates.",
-    "response": "Here are some hotel options in Lisbon within your budget of €100 per night for your stay from November 10, 2026, for 3 nights:\n\n1. **Bairro Alto Rooms**\n   - **Neighborhood:** Bairro Alto\n   - **Stars:** 2\n   - **Price per Night:** €60\n   - **Total Price for 3 Nights:** €180\n\n2. **Alfama Courtyard Inn**\n   - **Neighborhood:** Alfama\n   - **Stars:** 3\n   - **Price per Night:** €95\n   - **Total Price for 3 Nights:** €285\n\nBoth options fit within your budget and offer different neighborhood experiences in Lisbon.",
+    "session_id": "038a5985-b253-4d2c-9810-083a98d39bc4",
+    "message": "Can you find me a hotel under 100 euros a night?",
+    "frustrated": false,
+    "response": "Here are some hotel options in Lisbon for your stay from November 10, 2026, for 3 nights, each under 100 euros per night:\n\n1. **Bairro Alto Rooms**\n   - **Neighborhood:** Bairro Alto\n   - **Stars:** 2\n   - **Price per Night:** €60\n   - **Total Price for 3 Nights:** €180\n\n2. **Alfama Courtyard Inn**\n   - **Neighborhood:** Alfama\n   - **Stars:** 3\n   - **Price per Night:** €95\n   - **Total Price for 3 Nights:** €285\n\nThese options should fit within your budget. Let me know if you need more information or further assistance!",
     "error": null,
-    "seconds": 4.4
+    "seconds": 2.9
   },
   {
-    "conversation": "budget_correction",
+    "conversation": "happy_path",
     "turn": 3,
-    "session_id": "0b9a811c-5f5f-4db1-a5c2-bc5c6330c15b",
-    "message": "Great, what's worth seeing near the cheapest one?",
-    "check": "Knows the cheapest is Bairro Alto Rooms; searches the Bairro Alto area.",
-    "response": "Bairro Alto is a vibrant and historic neighborhood in Lisbon, known for its lively atmosphere, narrow streets, and cultural attractions. Here are some things worth seeing and doing near Bairro Alto Rooms:\n\n1. **Miradouro de São Pedro de Alcântara**: This is a beautiful viewpoint offering panoramic views of Lisbon, including the castle and the river. It's a great spot for photos and to enjoy the sunset.\n\n2. **Chiado**: Just a short walk from Bairro Alto, Chiado is a trendy shopping area with a mix of historic and modern shops, cafes, and theaters. It's a great place to explore during the day.\n\n3. **Carmo Convent**: This historic convent is now an archaeological museum. Its roofless nave is a striking reminder of the 1755 earthquake that hit Lisbon.\n\n4. **Elevador da Glória**: This funicular connects the lower part of the city with Bairro Alto and is a fun way to travel up the steep hill.\n\n5. **Fado Bars**: Bairro Alto is famous for its Fado music. Spend an evening in one of the local bars or restaurants enjoying this traditional Portuguese music.\n\n6. **Rua da Bica de Duarte Belo**: Known for its iconic funicular and colorful buildings, this street is one of the most photographed in Lisbon.\n\n7. **Botanical Garden of Lisbon**: A peaceful retreat in the city, this garden offers a variety of plants and trees, perfect for a leisurely stroll.\n\nThese attractions provide a mix of cultural, historical, and leisurely experiences, all within walking distance from Bairro Alto Rooms.",
+    "session_id": "038a5985-b253-4d2c-9810-083a98d39bc4",
+    "message": "Great, thanks! What's worth visiting near Alfama?",
+    "frustrated": false,
+    "response": "Alfama is one of the oldest and most charming neighborhoods in Lisbon, offering a rich cultural experience. Here are some must-visit places and activities in and around Alfama:\n\n1. **São Jorge Castle (Castelo de São Jorge):** This historic castle offers stunning views of Lisbon and is a great place to explore the city's history.\n\n2. **Lisbon Cathedral (Sé de Lisboa):** The city's oldest church, with beautiful architecture and a rich history.\n\n3. **Fado Music:** Alfama is famous for its Fado houses, where you can enjoy traditional Portuguese music. Consider visiting a Fado restaurant for an authentic experience.\n\n4. **Miradouro de Santa Luzia:** A picturesque viewpoint offering panoramic views of the city and the Tagus River.\n\n5. **National Pantheon (Panteão Nacional):** A beautiful baroque building where many important Portuguese figures are buried.\n\n6. **Museu do Fado:** Learn about the history and significance of Fado music in Portuguese culture.\n\n7. **Tram 28:** Take a ride on this iconic tram that passes through Alfama and other historic neighborhoods, offering a scenic tour of the city.\n\n8. **Alfama's Narrow Streets:** Simply wandering through the narrow, winding streets of Alfama is an experience in itself, with plenty of small shops, cafes, and local life to observe.\n\nThese attractions provide a mix of history, culture, and local flavor, making Alfama a fascinating area to explore. Enjoy your trip!",
     "error": null,
-    "seconds": 6.3
+    "seconds": 3.1
   },
   {
-    "conversation": "city_correction",
+    "conversation": "city_not_covered",
     "turn": 1,
-    "session_id": "857b9910-2e0d-4fd2-8920-303e01931ade",
-    "message": "Find me a hotel in Paris from 2026-11-20 for 2 nights.",
-    "check": "Lists Paris hotels.",
-    "response": "Here are some hotel options in Paris for your stay from November 20, 2026, for 2 nights:\n\n1. **Montmartre Budget Stay**\n   - **Neighborhood:** Montmartre\n   - **Stars:** 2\n   - **Price per Night:** €85\n   - **Total Price for 2 Nights:** €170\n\n2. **Le Petit Marais**\n   - **Neighborhood:** Le Marais\n   - **Stars:** 3\n   - **Price per Night:** €180\n   - **Total Price for 2 Nights:** €360\n\n3. **Hotel Rive Gauche**\n   - **Neighborhood:** Saint-Germain\n   - **Stars:** 4\n   - **Price per Night:** €260\n   - **Total Price for 2 Nights:** €520\n\nLet me know if you need more information or assistance!",
+    "session_id": "0f1df73c-fba0-49c7-8557-e31ce59fb579",
+    "message": "I need a hotel in Berlin from 2026-11-10 for 2 nights.",
+    "frustrated": false,
+    "response": "I currently don't have hotel data for Berlin. You might want to try using a hotel booking website or app to find accommodations for your stay in Berlin from November 10, 2026, for 2 nights.",
     "error": null,
-    "seconds": 3.9
+    "seconds": 2.6
   },
   {
-    "conversation": "city_correction",
+    "conversation": "city_not_covered",
     "turn": 2,
-    "session_id": "857b9910-2e0d-4fd2-8920-303e01931ade",
-    "message": "Sorry, I meant Marseille, not Paris.",
-    "check": "Re-runs for Marseille with the same dates (2026-11-20, 2 nights).",
-    "response": "Here are some hotel options in Marseille for your stay from November 20, 2026, for 2 nights:\n\n1. **Le Panier Guesthouse**\n   - **Neighborhood:** Le Panier\n   - **Stars:** 2\n   - **Price per Night:** €70\n   - **Total Price for 2 Nights:** €140\n\n2. **Vieux-Port Suites**\n   - **Neighborhood:** Vieux-Port\n   - **Stars:** 4\n   - **Price per Night:** €170\n   - **Total Price for 2 Nights:** €340\n\nLet me know if you need further assistance or more options!",
-    "error": null,
-    "seconds": 4.6
-  },
-  {
-    "conversation": "city_correction",
-    "turn": 3,
-    "session_id": "857b9910-2e0d-4fd2-8920-303e01931ade",
-    "message": "Which of those is closest to the old port?",
-    "check": "Vieux-Port Suites; answers about Marseille, not Paris.",
-    "response": "The **Vieux-Port Suites** is located in the Vieux-Port neighborhood, which is the area around the Old Port of Marseille. Therefore, it is the closest option to the Old Port.",
-    "error": null,
-    "seconds": 1.6
-  },
-  {
-    "conversation": "nights_correction",
-    "turn": 1,
-    "session_id": "bcd5c38e-2f56-4987-a9e5-d50476d308ba",
-    "message": "I need a hotel in Paris checking in 2026-12-01 for 2 nights, under 200 euros a night.",
-    "check": "Montmartre Budget Stay (85) and Le Petit Marais (180).",
-    "response": "Here are some hotel options in Paris for your stay from December 1, 2026, for 2 nights, with a budget of under 200 euros per night:\n\n1. **Montmartre Budget Stay**\n   - Neighborhood: Montmartre\n   - Stars: 2\n   - Price per night: €85\n   - Total price for 2 nights: €170\n\n2. **Le Petit Marais**\n   - Neighborhood: Le Marais\n   - Stars: 3\n   - Price per night: €180\n   - Total price for 2 nights: €360\n\nThese options fit within your budget and offer different neighborhood experiences in Paris.",
-    "error": null,
-    "seconds": 3.7
-  },
-  {
-    "conversation": "nights_correction",
-    "turn": 2,
-    "session_id": "bcd5c38e-2f56-4987-a9e5-d50476d308ba",
-    "message": "Make that 4 nights instead of 2.",
-    "check": "Same city, date and budget; totals now for 4 nights (340 and 720).",
-    "response": "Here are the updated hotel options in Paris for your stay from December 1, 2026, for 4 nights, with a budget of under 200 euros per night:\n\n1. **Montmartre Budget Stay**\n   - Neighborhood: Montmartre\n   - Stars: 2\n   - Price per night: €85\n   - Total price for 4 nights: €340\n\n2. **Le Petit Marais**\n   - Neighborhood: Le Marais\n   - Stars: 3\n   - Price per night: €180\n   - Total price for 4 nights: €720\n\nThese options continue to fit within your budget and offer a variety of experiences in Paris.",
-    "error": null,
-    "seconds": 2.8
-  },
-  {
-    "conversation": "nights_correction",
-    "turn": 3,
-    "session_id": "bcd5c38e-2f56-4987-a9e5-d50476d308ba",
-    "message": "What would I pay in total for the cheapest one?",
-    "check": "340 EUR.",
-    "response": "For the cheapest option, **Montmartre Budget Stay**, you would pay a total of €340 for 4 nights.",
+    "session_id": "0f1df73c-fba0-49c7-8557-e31ce59fb579",
+    "message": "Seriously? You can't find a single hotel in Berlin? That's pretty useless.",
+    "frustrated": true,
+    "response": "I'm sorry for the inconvenience. While I don't have direct access to hotel listings in Berlin, you can easily find accommodations using popular travel websites like Booking.com, Expedia, or Airbnb. These platforms offer a wide range of options and allow you to filter by price, location, and amenities to suit your needs. If you have any other questions or need further assistance, feel free to ask!",
     "error": null,
     "seconds": 1.3
   },
   {
-    "conversation": "details_over_turns",
-    "turn": 1,
-    "session_id": "42c139ad-b962-4f6f-a911-b5f04caa67b7",
-    "message": "I want to plan a trip to Tokyo.",
-    "check": "Asks for dates/nights, or gives general help.",
-    "response": "Planning a trip to Tokyo sounds exciting! Here's a general outline to help you get started:\n\n1. **Travel Dates**: Decide when you want to visit Tokyo. Consider the weather and any festivals or events that might be happening.\n\n2. **Flights**: Look for flights to Tokyo. You can use various travel websites to compare prices and find the best deals.\n\n3. **Accommodation**: Decide where you want to stay. Tokyo has a wide range of options, from luxury hotels to budget hostels. Would you like me to help you find hotel options for specific dates?\n\n4. **Transportation**: Consider how you'll get around Tokyo. The city has an excellent public transportation system, including trains and buses.\n\n5. **Itinerary**: Plan what you want to see and do. Tokyo offers a mix of traditional and modern attractions, such as temples, shopping districts, and museums.\n\n6. **Budget**: Set a budget for your trip, including accommodation, food, transportation, and activities.\n\n7. **Travel Insurance**: Consider purchasing travel insurance for peace of mind.\n\n8. **Packing**: Make a packing list based on the season and activities you plan to do.\n\nIf you need help with any specific part of your trip, such as finding hotels or things to do, feel free to ask!",
-    "error": null,
-    "seconds": 4.0
-  },
-  {
-    "conversation": "details_over_turns",
-    "turn": 2,
-    "session_id": "42c139ad-b962-4f6f-a911-b5f04caa67b7",
-    "message": "I'll arrive on 2026-12-05.",
-    "check": "Remembers Tokyo; may ask how many nights.",
-    "response": "Great! How many nights do you plan to stay in Tokyo, and do you have a specific budget per night for accommodation? This information will help me find suitable hotel options for you.",
-    "error": null,
-    "seconds": 1.6
-  },
-  {
-    "conversation": "details_over_turns",
+    "conversation": "city_not_covered",
     "turn": 3,
-    "session_id": "42c139ad-b962-4f6f-a911-b5f04caa67b7",
-    "message": "Staying 3 nights, and I don't want to spend more than 50 a night.",
-    "check": "Calls the hotel tool with Tokyo, 2026-12-05, 3 nights, max 50: Asakusa Capsule & Lounge.",
-    "response": "I found a hotel option for your stay in Tokyo:\n\n- **Asakusa Capsule & Lounge**\n  - **Location**: Asakusa\n  - **Stars**: 2\n  - **Price per Night**: €45\n  - **Total Price for 3 Nights**: €135\n\nThis option fits within your budget of €50 per night. Asakusa is a vibrant area known for its traditional atmosphere and attractions like the Senso-ji Temple.\n\nIf you need more options or have any other questions, feel free to ask!",
+    "session_id": "0f1df73c-fba0-49c7-8557-e31ce59fb579",
+    "message": "OK, what about Paris for the same dates?",
+    "frustrated": false,
+    "response": "Here are some hotel options in Paris for your stay from November 10, 2026, for 2 nights:\n\n1. **Montmartre Budget Stay**\n   - **Neighborhood:** Montmartre\n   - **Stars:** 2\n   - **Price per Night:** €85\n   - **Total Price for 2 Nights:** €170\n\n2. **Le Petit Marais**\n   - **Neighborhood:** Le Marais\n   - **Stars:** 3\n   - **Price per Night:** €180\n   - **Total Price for 2 Nights:** €360\n\n3. **Hotel Rive Gauche**\n   - **Neighborhood:** Saint-Germain\n   - **Stars:** 4\n   - **Price per Night:** €260\n   - **Total Price for 2 Nights:** €520\n\nThese options offer a range of prices and locations to suit different preferences. Let me know if you need more information!",
     "error": null,
-    "seconds": 4.3
+    "seconds": 2.8
   },
   {
-    "conversation": "details_over_turns",
-    "turn": 4,
-    "session_id": "42c139ad-b962-4f6f-a911-b5f04caa67b7",
-    "message": "How do I get from Narita airport to that hotel?",
-    "check": "Knows 'that hotel' is in Asakusa; searches Narita to Asakusa.",
-    "response": "To get from Narita Airport to Asakusa Capsule & Lounge in the Asakusa area, you have several options:\n\n1. **Train**:\n   - **Narita Express (N'EX) and JR Lines**: Take the Narita Express from Narita Airport to Tokyo Station. From Tokyo Station, transfer to the JR Yamanote Line to Ueno Station. From Ueno, you can take the Tokyo Metro Ginza Line to Asakusa Station. The hotel should be a short walk from there.\n   - **Keisei Skyliner and Metro**: Take the Keisei Skyliner from Narita Airport to Ueno Station. From Ueno, transfer to the Tokyo Metro Ginza Line to Asakusa Station.\n\n2. **Bus**:\n   - **Airport Limousine Bus**: There are direct buses from Narita Airport to Asakusa. Check the schedule and availability, as this can be a convenient option if you have a lot of luggage.\n\n3. **Taxi**:\n   - Taking a taxi from Narita Airport to Asakusa is the most convenient but also the most expensive option. It can be quite costly, so it's generally recommended only if you have a lot of luggage or are traveling in a group.\n\n4. **Ride-Sharing Services**:\n   - Services like Uber are available in Tokyo, but they can be expensive from the airport.\n\n5. **Shuttle Services**:\n   - Some hotels offer shuttle services from the airport, so it's worth checking with the hotel if they provide this service.\n\nThe train options are generally the most cost-effective and efficient way to travel from Narita Airport to Asakusa. Make sure to check the train schedules and any potential changes closer to your travel date.",
+    "conversation": "vague_date",
+    "turn": 1,
+    "session_id": "88f0f841-0d7e-4b37-a3fa-a2a4c2169c5b",
+    "message": "Find me a hotel in Paris for next Friday, 2 nights.",
+    "frustrated": false,
+    "response": "Here are some hotel options in Paris for your stay from next Friday for 2 nights:\n\n1. **Montmartre Budget Stay**\n   - Neighborhood: Montmartre\n   - Stars: 2\n   - Price per night: €85\n   - Total price for 2 nights: €170\n\n2. **Le Petit Marais**\n   - Neighborhood: Le Marais\n   - Stars: 3\n   - Price per night: €180\n   - Total price for 2 nights: €360\n\n3. **Hotel Rive Gauche**\n   - Neighborhood: Saint-Germain\n   - Stars: 4\n   - Price per night: €260\n   - Total price for 2 nights: €520\n\nLet me know if you need more information or assistance with booking!",
+    "error": null,
+    "seconds": 2.8
+  },
+  {
+    "conversation": "vague_date",
+    "turn": 2,
+    "session_id": "88f0f841-0d7e-4b37-a3fa-a2a4c2169c5b",
+    "message": "I mean Friday 2026-11-06. Why do I have to spell everything out?",
+    "frustrated": true,
+    "response": "Here are some hotel options in Paris for your stay from Friday, November 6, 2026, for 2 nights:\n\n1. **Montmartre Budget Stay**\n   - Neighborhood: Montmartre\n   - Stars: 2\n   - Price per night: €85\n   - Total price for 2 nights: €170\n\n2. **Le Petit Marais**\n   - Neighborhood: Le Marais\n   - Stars: 3\n   - Price per night: €180\n   - Total price for 2 nights: €360\n\n3. **Hotel Rive Gauche**\n   - Neighborhood: Saint-Germain\n   - Stars: 4\n   - Price per night: €260\n   - Total price for 2 nights: €520\n\nIf you need further assistance or more options, feel free to ask!",
+    "error": null,
+    "seconds": 2.6
+  },
+  {
+    "conversation": "user_changes_own_plan",
+    "turn": 1,
+    "session_id": "09325681-6709-4549-b9b3-2835719745e2",
+    "message": "Hotels in Marseille from 2026-11-20 for 2 nights, please.",
+    "frustrated": false,
+    "response": "Here are some hotel options in Marseille for your stay from November 20, 2026, for 2 nights:\n\n1. **Le Panier Guesthouse**\n   - **Neighborhood:** Le Panier\n   - **Stars:** 2\n   - **Price per Night:** €70\n   - **Total Price for 2 Nights:** €140\n\n2. **Vieux-Port Suites**\n   - **Neighborhood:** Vieux-Port\n   - **Stars:** 4\n   - **Price per Night:** €170\n   - **Total Price for 2 Nights:** €340\n\nThese options provide a range of prices and locations to suit different preferences.",
+    "error": null,
+    "seconds": 2.7
+  },
+  {
+    "conversation": "user_changes_own_plan",
+    "turn": 2,
+    "session_id": "09325681-6709-4549-b9b3-2835719745e2",
+    "message": "Actually, make it 3 nights instead of 2.",
+    "frustrated": false,
+    "response": "Here are the updated hotel options in Marseille for your stay from November 20, 2026, for 3 nights:\n\n1. **Le Panier Guesthouse**\n   - **Neighborhood:** Le Panier\n   - **Stars:** 2\n   - **Price per Night:** €70\n   - **Total Price for 3 Nights:** €210\n\n2. **Vieux-Port Suites**\n   - **Neighborhood:** Vieux-Port\n   - **Stars:** 4\n   - **Price per Night:** €170\n   - **Total Price for 3 Nights:** €510\n\nThese options provide a variety of choices based on your budget and preferred location.",
+    "error": null,
+    "seconds": 2.4
+  },
+  {
+    "conversation": "nothing_in_budget",
+    "turn": 1,
+    "session_id": "2e61eb1d-7f0c-4ea8-b530-fc263e480f29",
+    "message": "Any hotels in Paris from 2026-11-15 for 2 nights under 50 euros a night?",
+    "frustrated": false,
+    "response": "I couldn't find any hotels in Paris for the dates you specified (November 15, 2026, for 2 nights) under 50 euros per night. You might want to consider increasing your budget or exploring alternative accommodations such as hostels or shared accommodations.",
+    "error": null,
+    "seconds": 2.7
+  },
+  {
+    "conversation": "nothing_in_budget",
+    "turn": 2,
+    "session_id": "2e61eb1d-7f0c-4ea8-b530-fc263e480f29",
+    "message": "Nothing under 50? Ugh. This is the third site that tells me that.",
+    "frustrated": true,
+    "response": "Finding accommodations in Paris under 50 euros per night can indeed be challenging, especially given the city's popularity and cost of living. Here are a few suggestions that might help:\n\n1. **Hostels**: Consider staying in a hostel, which can be more affordable than hotels. Websites like Hostelworld or Booking.com often list budget-friendly options.\n\n2. **Shared Accommodations**: Platforms like Airbnb might offer shared rooms or apartments at a lower cost.\n\n3. **Budget Hotels**: Look for budget hotel chains like Ibis Budget or B&B Hotels, which sometimes offer competitive rates.\n\n4. **Stay Outside the City Center**: Accommodations in the suburbs or less touristy areas of Paris might be cheaper, and the city's public transport can help you reach central locations easily.\n\n5. **Travel Off-Peak**: If your dates are flexible, consider traveling during off-peak seasons when prices might be lower.\n\n6. **Special Deals and Discounts**: Keep an eye out for special promotions or last-minute deals that might offer lower rates.\n\nI hope these tips help you find a suitable place to stay!",
+    "error": null,
+    "seconds": 2.7
+  },
+  {
+    "conversation": "nothing_in_budget",
+    "turn": 3,
+    "session_id": "2e61eb1d-7f0c-4ea8-b530-fc263e480f29",
+    "message": "OK, what's the cheapest option then?",
+    "frustrated": false,
+    "response": "The cheapest hotel option I found in Paris for your specified dates (November 15, 2026, for 2 nights) is:\n\n- **Montmartre Budget Stay**\n  - **Neighborhood**: Montmartre\n  - **Stars**: 2\n  - **Price per Night**: 85 euros\n  - **Total Price for 2 Nights**: 170 euros\n\nThis option is above your initial budget of 50 euros per night, but it is currently the most affordable available. If this is still too high, you might want to explore alternative accommodations like hostels or shared rooms.",
+    "error": null,
+    "seconds": 2.2
+  },
+  {
+    "conversation": "polite_follow_up",
+    "turn": 1,
+    "session_id": "1e03c8c3-b00a-4a75-8b53-e8f3fd660dad",
+    "message": "Can you suggest things to do in Marseille?",
+    "frustrated": false,
+    "response": "Marseille, located in the south of France, is a vibrant city with a rich history and plenty of attractions. Here are some things you might consider doing while visiting Marseille:\n\n1. **Visit the Old Port (Vieux-Port):** This is the historic heart of Marseille, where you can enjoy a stroll along the waterfront, watch the boats, and dine at one of the many seafood restaurants.\n\n2. **Explore Le Panier:** This is the oldest district in Marseille, known for its narrow streets, colorful buildings, and artistic vibe. It's a great place to wander and discover local shops and cafes.\n\n3. **Notre-Dame de la Garde:** This iconic basilica offers stunning views of the city and the Mediterranean Sea. It's a must-visit for its architecture and panoramic vistas.\n\n4. **Château d'If:** Take a boat trip to this famous fortress on the Île d'If, which was made famous by Alexandre Dumas' novel \"The Count of Monte Cristo.\"\n\n5. **Calanques National Park:** Just outside of Marseille, this national park offers breathtaking natural beauty with its limestone cliffs, turquoise waters, and hiking trails.\n\n6. **MuCEM (Museum of European and Mediterranean Civilizations):** This modern museum explores the history and culture of the Mediterranean region and is architecturally impressive.\n\n7. **La Canebière:** This is Marseille's main thoroughfare, perfect for shopping and experiencing the hustle and bustle of the city.\n\n8. **Palais Longchamp:** Visit this grand 19th-century palace and park, which houses the Museum of Fine Arts and the Natural History Museum.\n\n9. **Enjoy the Beaches:** Marseille has several beautiful beaches where you can relax and enjoy the Mediterranean sun, such as Plage des Catalans and Plage du Prado.\n\n10. **Try Local Cuisine:** Don't miss trying local specialties like bouillabaisse (a traditional fish stew), panisse (chickpea fritters), and pastis (an anise-flavored spirit).\n\nThese activities offer a mix of cultural, historical, and natural experiences that showcase the diverse charm of Marseille.",
+    "error": null,
+    "seconds": 4.2
+  },
+  {
+    "conversation": "polite_follow_up",
+    "turn": 2,
+    "session_id": "1e03c8c3-b00a-4a75-8b53-e8f3fd660dad",
+    "message": "Thanks, that's really helpful! Any hotel near the Vieux-Port from 2026-11-20 for 2 nights?",
+    "frustrated": false,
+    "response": "Here are some hotel options near the Vieux-Port in Marseille for your stay from November 20, 2026, for 2 nights:\n\n1. **Le Panier Guesthouse**\n   - **Neighborhood:** Le Panier\n   - **Stars:** 2\n   - **Price per Night:** €70\n   - **Total Price for 2 Nights:** €140\n\n2. **Vieux-Port Suites**\n   - **Neighborhood:** Vieux-Port\n   - **Stars:** 4\n   - **Price per Night:** €170\n   - **Total Price for 2 Nights:** €340\n\nThese options provide a range of prices and comfort levels, allowing you to choose based on your preferences and budget.",
+    "error": null,
+    "seconds": 2.3
+  },
+  {
+    "conversation": "frustrated_repeat",
+    "turn": 1,
+    "session_id": "90dba899-fb27-42f6-b70b-b8ff1a0d3e78",
+    "message": "Hotels in Lisbon from 2026-11-10 for 3 nights, under 70 euros a night please.",
+    "frustrated": false,
+    "response": "Here is a hotel option in Lisbon for your stay from November 10, 2026, for 3 nights, under 70 euros per night:\n\n- **Bairro Alto Rooms**\n  - **Neighborhood:** Bairro Alto\n  - **Stars:** 2\n  - **Price per Night:** €60\n  - **Total Price for 3 Nights:** €180\n\nThis option fits within your budget and is located in the vibrant Bairro Alto neighborhood.",
+    "error": null,
+    "seconds": 2.5
+  },
+  {
+    "conversation": "frustrated_repeat",
+    "turn": 2,
+    "session_id": "90dba899-fb27-42f6-b70b-b8ff1a0d3e78",
+    "message": "Can you show me more options?",
+    "frustrated": false,
+    "response": "Currently, I have only one option available that fits your criteria of staying under 70 euros per night in Lisbon from November 10, 2026, for 3 nights. If you would like, I can try searching again or adjust the criteria to see if more options become available. Let me know how you'd like to proceed!",
+    "error": null,
+    "seconds": 1.2
+  },
+  {
+    "conversation": "frustrated_repeat",
+    "turn": 3,
+    "session_id": "90dba899-fb27-42f6-b70b-b8ff1a0d3e78",
+    "message": "No, I already told you, UNDER 70 a night. Why is that so hard?",
+    "frustrated": true,
+    "response": "I searched again, but it seems that the only available option under 70 euros per night for your specified dates in Lisbon is still:\n\n- **Bairro Alto Rooms**\n  - **Neighborhood:** Bairro Alto\n  - **Stars:** 2\n  - **Price per Night:** €60\n  - **Total Price for 3 Nights:** €180\n\nThis is the only option currently available that meets your budget criteria. If you have any other preferences or need further assistance, please let me know!",
     "error": null,
     "seconds": 4.7
-  },
-  {
-    "conversation": "unsupported_city_switch",
-    "turn": 1,
-    "session_id": "8ada1bbe-7b52-4977-bdd0-2bd9159c5f87",
-    "message": "Find me a hotel in Berlin from 2026-11-10 for 2 nights.",
-    "check": "No data for Berlin; lists available cities.",
-    "response": "I'm currently unable to find hotel options in Berlin for the specified dates. My available data includes hotel options for cities like Lisbon, Paris, Marseille, and Tokyo. You might want to try searching for hotels in Berlin through popular travel websites or apps closer to your travel date.",
-    "error": null,
-    "seconds": 3.3
-  },
-  {
-    "conversation": "unsupported_city_switch",
-    "turn": 2,
-    "session_id": "8ada1bbe-7b52-4977-bdd0-2bd9159c5f87",
-    "message": "Okay, Lisbon then, same dates.",
-    "check": "Lisbon, 2026-11-10, 2 nights.",
-    "response": "Here are some hotel options in Lisbon for your stay from November 10, 2026, for 2 nights:\n\n1. **Bairro Alto Rooms**\n   - **Neighborhood:** Bairro Alto\n   - **Stars:** 2\n   - **Price per Night:** €60\n   - **Total Price for 2 Nights:** €120\n\n2. **Alfama Courtyard Inn**\n   - **Neighborhood:** Alfama\n   - **Stars:** 3\n   - **Price per Night:** €95\n   - **Total Price for 2 Nights:** €190\n\n3. **Hotel Avenida Grand**\n   - **Neighborhood:** Avenida da Liberdade\n   - **Stars:** 5\n   - **Price per Night:** €310\n   - **Total Price for 2 Nights:** €620\n\nThese options vary in price and star rating, so you can choose based on your preferences and budget.",
-    "error": null,
-    "seconds": 7.0
-  },
-  {
-    "conversation": "frustrated_repeat",
-    "turn": 1,
-    "session_id": "cc8a2804-daac-41b0-9272-76a922993451",
-    "message": "Hotels in Lisbon from 2026-11-10 for 3 nights, under 70 euros a night please.",
-    "check": "Bairro Alto Rooms only.",
-    "response": "I found a hotel option in Lisbon for your stay from November 10, 2026, for 3 nights under 70 euros per night:\n\n- **Bairro Alto Rooms**\n  - **Neighborhood:** Bairro Alto\n  - **Stars:** 2\n  - **Price per Night:** €60\n  - **Total Price for 3 Nights:** €180\n\nThis option fits within your budget and is located in the vibrant Bairro Alto neighborhood.",
-    "error": null,
-    "seconds": 4.1
-  },
-  {
-    "conversation": "frustrated_repeat",
-    "turn": 2,
-    "session_id": "cc8a2804-daac-41b0-9272-76a922993451",
-    "message": "Can you show me more options?",
-    "check": "Explains nothing else is under 70; keeps the budget unless asked.",
-    "response": "Currently, I only have information on one hotel option within your specified budget of 70 euros per night in Lisbon for the given dates. If you would like, I can try searching again or you might consider adjusting your budget or preferences to find more options. Let me know how you'd like to proceed!",
-    "error": null,
-    "seconds": 1.9
-  },
-  {
-    "conversation": "frustrated_repeat",
-    "turn": 3,
-    "session_id": "cc8a2804-daac-41b0-9272-76a922993451",
-    "message": "No, I already told you, UNDER 70 a night. Why is that so hard?",
-    "check": "Stays calm, confirms Bairro Alto Rooms is the only match.",
-    "response": "I apologize for the confusion. It seems that \"Bairro Alto Rooms\" is currently the only option available under 69 euros per night for your specified dates in Lisbon. Here are the details again:\n\n- **Bairro Alto Rooms**\n  - **Neighborhood:** Bairro Alto\n  - **Stars:** 2\n  - **Price per Night:** €60\n  - **Total Price for 3 Nights:** €180\n\nIf you have any other preferences or need further assistance, please let me know!",
-    "error": null,
-    "seconds": 3.4
   }
 ]
