@@ -141,16 +141,16 @@ In Phoenix I then filtered the spans with `annotations['user_frustration'].label
 
 ### Results
 
-Phoenix holds 62 turns: 44 in 20 sessions and 18 single-turn requests, including earlier test runs and manual tests. The judge flagged 11 turns and 7 sessions as friction.
+Phoenix holds 62 turns: 44 in 20 sessions and 18 single-turn requests, including earlier test runs and manual tests. The judge flagged 11 turns and 7 sessions as friction, and I saved the 11 flagged turns as `friction_eval_dataset`.
 
-- On the 16 single-turn queries it also matched my labels: it flagged the 4 frustrated messages and neither neutral look-alike.
+The evaluator only returns `friction` or `no_friction`. Its rubric looks for four kinds of signal (correction, retry, frustration, challenge), but which one it found only appears in the explanation text, not as a separate field. In my flagged turns, most explanations point to frustration ("Ugh", "Why is that so hard?") and a few to a correction or a retry ("That's wrong, I said Marseille").
 
-That score says more about my test set than about the judge: the set is small, I wrote it myself, and most cases are clear-cut. The interesting cases are on turns I hadn't labelled, where the judge flagged two messages I wouldn't call frustrated:
+Two of the flagged turns are mistakes by the judge's own rubric:
 
-- "Sorry, I meant Marseille, not Paris." The user corrects their own mistake.
-- "Actually my budget is 100 euros a night max." The user adds a constraint.
+- "Actually my budget is 100 euros a night max." The rubric says a new constraint that builds on the previous answer is `no_friction`. It handled the similar "Actually, make it 3 nights instead of 2" correctly.
+- "Sorry, I meant Marseille, not Paris." Borderline: it redirects the assistant, but the mistake was the user's, not the assistant's.
 
-The evaluator measures friction, which by its own definition includes corrections and retries, not only frustration. It's also not fully consistent: it didn't flag "Actually, make it 3 nights instead of 2." For a frustration metric I'd write a custom prompt that excludes self-corrections and compare it with the built-in one on the same labels.
+The rubric also says to prefer `no_friction` when in doubt, because precision on the friction label matters more than recall. So these are precision errors by the judge model (gpt-4o-mini), not a difference in definitions. Next I'd try a stronger judge model, and a custom prompt that also returns which signal it found, so the type becomes something you can filter on.
 
 Also from the docs: `no_friction` doesn't mean the user was happy. People often just leave.
 
@@ -166,7 +166,7 @@ With Phoenix and the app running:
 poetry run python send_queries.py          # single-turn queries
 poetry run python send_sessions.py         # multi-turn conversations
 poetry run python log_human_labels.py      # human labels -> Phoenix
-poetry run python run_frustration_eval.py  # LLM judge -> Phoenix, plus agreement with the human labels
+poetry run python run_frustration_eval.py  # LLM judge -> Phoenix
 ```
 
 Export the spans with their annotations (this is how `spans.json` was made):
@@ -178,8 +178,8 @@ px span list spans.json --project travel-agent-arize-OA --limit 5000 --include-a
 ## Limitations and next steps
 
 - The users are scripted, so they don't react to what the agent actually says. Phoenix's session evaluation cookbook uses a simulated user for that.
-- Few labelled examples, all written by me. More labels, ideally from someone else, would make the agreement number meaningful.
-- Try a custom frustration judge against the built-in one, using `friction_eval_dataset` and the human labels.
+- Few labelled examples, all written by me. To trust the judge on real traffic I'd want more, ideally labelled by someone else.
+- Try a custom judge that returns the type of friction (correction, retry, frustration, challenge) and compare it with the built-in one on `friction_eval_dataset`.
 - Fix the date issue above, then re-run the evaluation to check it.
 - Other evaluators worth adding: tool selection (did it pick the hotel tool for hotel questions?) and tool invocation (were the arguments right?).
 - Memory is in-process only; a persistent checkpointer for anything beyond a demo.
