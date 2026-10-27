@@ -143,7 +143,6 @@ In Phoenix I then filtered the spans with `annotations['user_frustration'].label
 
 Phoenix holds 62 turns: 44 in 20 sessions and 18 single-turn requests, including earlier test runs and manual tests. The judge flagged 11 turns and 7 sessions as friction.
 
-- On the 19 turns that carry my label, the judge agreed every time (19/19).
 - On the 16 single-turn queries it also matched my labels: it flagged the 4 frustrated messages and neither neutral look-alike.
 
 That score says more about my test set than about the judge: the set is small, I wrote it myself, and most cases are clear-cut. The interesting cases are on turns I hadn't labelled, where the judge flagged two messages I wouldn't call frustrated:
